@@ -1,7 +1,7 @@
 #dev infrastructure module
 
 module "dev-infra"{
-    source = "./infra-app"
+    source = "./infra-app" 
     env = "dev"
     bucket_name = "infra-app-bucket"
     instance_count = 1
